@@ -1,24 +1,44 @@
 var _yamljs = require('yamljs');
 var _fs = require('fs');
+var _fetch = require('node-fetch');
 
 // buffer html output
 var htmlOutputBuffer = '';
 
-// fetch file
-var languageYMLData = _fs.readFileSync('languages.yml', 'utf-8').toString('utf-8');
+// fetch latest linguist language support file
+_fetch('https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml')
+    // handle errors
+    .catch(function(err){
+        console.err('Error', err);
+    })
 
-// parse yaml string
-var linguistData = _yamljs.parse(languageYMLData);
+    // convert to text
+    .then(function(res) {
+        return res.text();
 
-// generate html output
-Object.keys(linguistData).forEach(function(name) {
-    addLanguage(name, linguistData[name]);
-});
+    // process data
+    }).then(function(languageYMLData){
+        // drop sections + comments
+        languageYMLData = languageYMLData.replace(/^---.*$/gm, '').replace(/^#.*$/gm, '');
 
-// merge content
-var htmlHeader = getTemplate('header');
-var htmlFooter = getTemplate('footer');
-_fs.writeFileSync('index.html', htmlHeader + htmlOutputBuffer + htmlFooter);
+        // parse yaml string
+        var linguistData = _yamljs.parse(languageYMLData);
+
+        // show num entries
+        console.log('Total of ' + Object.keys(linguistData).length + ' languages found');
+
+        // generate html output
+        Object.keys(linguistData).forEach(function(name) {
+            addLanguage(name, linguistData[name]);
+        });
+
+        // merge content
+        console.log('Generating Page..');
+        var htmlHeader = getTemplate('header');
+        var htmlFooter = getTemplate('footer');
+        _fs.writeFileSync('index.html', htmlHeader + htmlOutputBuffer + htmlFooter);
+        console.log('READY!');
+    });
 
 // push language to buffer
 function addLanguage(name, attb){
