@@ -25,14 +25,20 @@
         }
 
         div.lang{
-            border: solid 2px #000000;
+            border: dotted 1px #404040;
             display: block;
             flex: 1 1 auto;
             width: 180px;
             height: auto;
             padding: 2px;
             margin: 5px;
+            color: #ffffff;
         }
+
+        div.lang.inverted{
+            color: #101010;
+        }
+
         div.lang.lg{
             width: 370px;
         }
@@ -43,7 +49,7 @@
             font-size: 13px;
             font-weight: bold;
             display: block;
-            color: #ffffff;
+            color: inherit;
             padding: 4px 5px 4px 5px;
             margin: 0px;
         }
@@ -60,12 +66,12 @@
         div.ext{
             font-size: 10px;
             padding: 5px;
-            color: #ffffff;
+            color: inherit;
             
         }
         div.alias{
             margin: 5px 0px 5px 0px;
-            color: #ffffff;
+            color: inherit;
             font-weight: bold;
             text-decoration: underline;
             font-size: 10px;
@@ -77,41 +83,41 @@
     <header>
         <div class="container">
             <h1>GitHub Syntax Highlighting CheatSheet</h1>
-            <p>Data taken from <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" title="linguist">linguist</a> as of <strong>Mon Jan 09 2017 09:23:41 GMT+0000 (UTC)</strong></p>
+            <p>Data taken from <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" title="linguist">linguist</a> as of <strong>Mon Jan 09 2017 09:31:46 GMT+0000 (UTC)</strong></p>
         </div>
     </header>
 
-    <div class="wrapper"><div class="lang md" style="background-color: #814CCC"><h4>1C Enterprise</h4><div class="attb"><div class="alias">1centerprise</div><div class="ext">.bsl .os</div></div></div>
-<div class="lang md" style="background-color: #E8274B"><h4>ABAP</h4><div class="attb"><div class="alias">abap</div><div class="ext">.abap</div></div></div>
+    <div class="wrapper"><div class="lang inverted" style="background-color: #814ccc"><h4>1C Enterprise</h4><div class="attb"><div class="alias">1centerprise</div><div class="ext">.bsl .os</div></div></div>
+<div class="lang inverted" style="background-color: #e8274b"><h4>ABAP</h4><div class="attb"><div class="alias">abap</div><div class="ext">.abap</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>ABNF</h4><div class="attb"><div class="alias">abnf</div><div class="ext">.abnf</div></div></div>
-<div class="lang md" style="background-color: #B9D9FF"><h4>AGS Script</h4><div class="attb"><div class="alias">agsscript, ags</div><div class="ext">.asc .ash</div></div></div>
-<div class="lang md" style="background-color: #E6EFBB"><h4>AMPL</h4><div class="attb"><div class="alias">ampl</div><div class="ext">.ampl .mod</div></div></div>
-<div class="lang md" style="background-color: #9DC3FF"><h4>ANTLR</h4><div class="attb"><div class="alias">antlr</div><div class="ext">.g4</div></div></div>
-<div class="lang md" style="background-color: #2ACCA8"><h4>API Blueprint</h4><div class="attb"><div class="alias">apiblueprint</div><div class="ext">.apib</div></div></div>
-<div class="lang md" style="background-color: #5A8164"><h4>APL</h4><div class="attb"><div class="alias">apl</div><div class="ext">.apl .dyalog</div></div></div>
+<div class="lang inverted" style="background-color: #b9d9ff"><h4>AGS Script</h4><div class="attb"><div class="alias">agsscript, ags</div><div class="ext">.asc .ash</div></div></div>
+<div class="lang inverted" style="background-color: #e6efbb"><h4>AMPL</h4><div class="attb"><div class="alias">ampl</div><div class="ext">.ampl .mod</div></div></div>
+<div class="lang inverted" style="background-color: #9dc3ff"><h4>ANTLR</h4><div class="attb"><div class="alias">antlr</div><div class="ext">.g4</div></div></div>
+<div class="lang md" style="background-color: #2acca8"><h4>API Blueprint</h4><div class="attb"><div class="alias">apiblueprint</div><div class="ext">.apib</div></div></div>
+<div class="lang md" style="background-color: #5a8164"><h4>APL</h4><div class="attb"><div class="alias">apl</div><div class="ext">.apl .dyalog</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>ASN.1</h4><div class="attb"><div class="alias">asn1</div><div class="ext">.asn .asn1</div></div></div>
-<div class="lang md" style="background-color: #6a40fd"><h4>ASP</h4><div class="attb"><div class="alias">asp, aspx, aspx-vb</div><div class="ext">.asp .asax .ascx .ashx .asmx .aspx .axd</div></div></div>
+<div class="lang inverted" style="background-color: #6a40fd"><h4>ASP</h4><div class="attb"><div class="alias">asp, aspx, aspx-vb</div><div class="ext">.asp .asax .ascx .ashx .asmx .aspx .axd</div></div></div>
 <div class="lang md" style="background-color: #1ac620"><h4>ATS</h4><div class="attb"><div class="alias">ats, ats2</div><div class="ext">.dats .hats .sats</div></div></div>
-<div class="lang md" style="background-color: #882B0F"><h4>ActionScript</h4><div class="attb"><div class="alias">actionscript, actionscript 3, actionscript3, as3</div><div class="ext">.as</div></div></div>
+<div class="lang md" style="background-color: #882b0f"><h4>ActionScript</h4><div class="attb"><div class="alias">actionscript, actionscript 3, actionscript3, as3</div><div class="ext">.as</div></div></div>
 <div class="lang md" style="background-color: #02f88c"><h4>Ada</h4><div class="attb"><div class="alias">ada, ada95, ada2005</div><div class="ext">.adb .ada .ads</div></div></div>
 <div class="lang md" style="background-color: #315665"><h4>Agda</h4><div class="attb"><div class="alias">agda</div><div class="ext">.agda</div></div></div>
-<div class="lang md" style="background-color: #64C800"><h4>Alloy</h4><div class="attb"><div class="alias">alloy</div><div class="ext">.als</div></div></div>
+<div class="lang md" style="background-color: #64c800"><h4>Alloy</h4><div class="attb"><div class="alias">alloy</div><div class="ext">.als</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Alpine Abuild</h4><div class="attb"><div class="alias">alpineabuild, abuild, apkbuild</div><div class="ext"></div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Ant Build System</h4><div class="attb"><div class="alias">antbuildsystem</div><div class="ext"></div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>ApacheConf</h4><div class="attb"><div class="alias">apacheconf, aconf, apache</div><div class="ext">.apacheconf .vhost</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Apex</h4><div class="attb"><div class="alias">apex</div><div class="ext">.cls</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Apollo Guidance Computer</h4><div class="attb"><div class="alias">apolloguidancecomputer</div><div class="ext">.agc</div></div></div>
-<div class="lang md" style="background-color: #101F1F"><h4>AppleScript</h4><div class="attb"><div class="alias">applescript, osascript</div><div class="ext">.applescript .scpt</div></div></div>
-<div class="lang md" style="background-color: #aa2afe"><h4>Arc</h4><div class="attb"><div class="alias">arc</div><div class="ext">.arc</div></div></div>
-<div class="lang md" style="background-color: #bd79d1"><h4>Arduino</h4><div class="attb"><div class="alias">arduino</div><div class="ext">.ino</div></div></div>
+<div class="lang md" style="background-color: #101f1f"><h4>AppleScript</h4><div class="attb"><div class="alias">applescript, osascript</div><div class="ext">.applescript .scpt</div></div></div>
+<div class="lang inverted" style="background-color: #aa2afe"><h4>Arc</h4><div class="attb"><div class="alias">arc</div><div class="ext">.arc</div></div></div>
+<div class="lang inverted" style="background-color: #bd79d1"><h4>Arduino</h4><div class="attb"><div class="alias">arduino</div><div class="ext">.ino</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>AsciiDoc</h4><div class="attb"><div class="alias">asciidoc</div><div class="ext">.asciidoc .adoc .asc</div></div></div>
-<div class="lang md" style="background-color: #a957b0"><h4>AspectJ</h4><div class="attb"><div class="alias">aspectj</div><div class="ext">.aj</div></div></div>
-<div class="lang md" style="background-color: #6E4C13"><h4>Assembly</h4><div class="attb"><div class="alias">assembly, nasm</div><div class="ext">.asm .a51 .inc .nasm</div></div></div>
+<div class="lang inverted" style="background-color: #a957b0"><h4>AspectJ</h4><div class="attb"><div class="alias">aspectj</div><div class="ext">.aj</div></div></div>
+<div class="lang md" style="background-color: #6e4c13"><h4>Assembly</h4><div class="attb"><div class="alias">assembly, nasm</div><div class="ext">.asm .a51 .inc .nasm</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Augeas</h4><div class="attb"><div class="alias">augeas</div><div class="ext">.aug</div></div></div>
-<div class="lang md" style="background-color: #6594b9"><h4>AutoHotkey</h4><div class="attb"><div class="alias">autohotkey, ahk</div><div class="ext">.ahk .ahkl</div></div></div>
-<div class="lang md" style="background-color: #1C3552"><h4>AutoIt</h4><div class="attb"><div class="alias">autoit, au3, AutoIt3, AutoItScript</div><div class="ext">.au3</div></div></div>
+<div class="lang inverted" style="background-color: #6594b9"><h4>AutoHotkey</h4><div class="attb"><div class="alias">autohotkey, ahk</div><div class="ext">.ahk .ahkl</div></div></div>
+<div class="lang md" style="background-color: #1c3552"><h4>AutoIt</h4><div class="attb"><div class="alias">autoit, au3, AutoIt3, AutoItScript</div><div class="ext">.au3</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Awk</h4><div class="attb"><div class="alias">awk</div><div class="ext">.awk .auk .gawk .mawk .nawk</div></div></div>
-<div class="lang md" style="background-color: #C1F12E"><h4>Batchfile</h4><div class="attb"><div class="alias">batchfile, bat, batch, dosbatch, winbatch</div><div class="ext">.bat .cmd</div></div></div>
+<div class="lang inverted" style="background-color: #c1f12e"><h4>Batchfile</h4><div class="attb"><div class="alias">batchfile, bat, batch, dosbatch, winbatch</div><div class="ext">.bat .cmd</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Befunge</h4><div class="attb"><div class="alias">befunge</div><div class="ext">.befunge</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Bison</h4><div class="attb"><div class="alias">bison</div><div class="ext">.bison</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>BitBake</h4><div class="attb"><div class="alias">bitbake</div><div class="ext">.bb</div></div></div>
@@ -119,13 +125,13 @@
 <div class="lang md" style="background-color: #202020"><h4>BlitzBasic</h4><div class="attb"><div class="alias">blitzbasic, b3d, blitz3d, blitzplus, bplus</div><div class="ext">.bb .decls</div></div></div>
 <div class="lang md" style="background-color: #cd6400"><h4>BlitzMax</h4><div class="attb"><div class="alias">blitzmax, bmax</div><div class="ext">.bmx</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Bluespec</h4><div class="attb"><div class="alias">bluespec</div><div class="ext">.bsv</div></div></div>
-<div class="lang md" style="background-color: #d4bec1"><h4>Boo</h4><div class="attb"><div class="alias">boo</div><div class="ext">.boo</div></div></div>
-<div class="lang md" style="background-color: #2F2530"><h4>Brainfuck</h4><div class="attb"><div class="alias">brainfuck</div><div class="ext">.b .bf</div></div></div>
+<div class="lang inverted" style="background-color: #d4bec1"><h4>Boo</h4><div class="attb"><div class="alias">boo</div><div class="ext">.boo</div></div></div>
+<div class="lang md" style="background-color: #2f2530"><h4>Brainfuck</h4><div class="attb"><div class="alias">brainfuck</div><div class="ext">.b .bf</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Brightscript</h4><div class="attb"><div class="alias">brightscript</div><div class="ext">.brs</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Bro</h4><div class="attb"><div class="alias">bro</div><div class="ext">.bro</div></div></div>
 <div class="lang md" style="background-color: #555555"><h4>C</h4><div class="attb"><div class="alias">c</div><div class="ext">.c .cats .h .idc .w</div></div></div>
 <div class="lang md" style="background-color: #178600"><h4>C#</h4><div class="attb"><div class="alias">c, csharp</div><div class="ext">.cs .cake .cshtml .csx</div></div></div>
-<div class="lang lg" style="background-color: #f34b7d"><h4>C++</h4><div class="attb"><div class="alias">c, cpp</div><div class="ext">.cpp .c++ .cc .cp .cxx .h .h++ .hh .hpp .hxx .inc .inl .ipp .re .tcc .tpp</div></div></div>
+<div class="lang inverted" style="background-color: #f34b7d"><h4>C++</h4><div class="attb"><div class="alias">c, cpp</div><div class="ext">.cpp .c++ .cc .cp .cxx .h .h++ .hh .hpp .hxx .inc .inl .ipp .re .tcc .tpp</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>C-ObjDump</h4><div class="attb"><div class="alias">cobjdump</div><div class="ext">.c-objdump</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>C2hs Haskell</h4><div class="attb"><div class="alias">c2hshaskell, c2hs</div><div class="ext">.chs</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>CLIPS</h4><div class="attb"><div class="alias">clips</div><div class="ext">.clp</div></div></div>
@@ -138,19 +144,19 @@
 <div class="lang md" style="background-color: #202020"><h4>Cap'n Proto</h4><div class="attb"><div class="alias">capnproto</div><div class="ext">.capnp</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>CartoCSS</h4><div class="attb"><div class="alias">cartocss, Carto</div><div class="ext">.mss</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Ceylon</h4><div class="attb"><div class="alias">ceylon</div><div class="ext">.ceylon</div></div></div>
-<div class="lang md" style="background-color: #8dc63f"><h4>Chapel</h4><div class="attb"><div class="alias">chapel, chpl</div><div class="ext">.chpl</div></div></div>
+<div class="lang inverted" style="background-color: #8dc63f"><h4>Chapel</h4><div class="attb"><div class="alias">chapel, chpl</div><div class="ext">.chpl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Charity</h4><div class="attb"><div class="alias">charity</div><div class="ext">.ch</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>ChucK</h4><div class="attb"><div class="alias">chuck</div><div class="ext">.ck</div></div></div>
-<div class="lang md" style="background-color: #ccccff"><h4>Cirru</h4><div class="attb"><div class="alias">cirru</div><div class="ext">.cirru</div></div></div>
+<div class="lang inverted" style="background-color: #ccccff"><h4>Cirru</h4><div class="attb"><div class="alias">cirru</div><div class="ext">.cirru</div></div></div>
 <div class="lang md" style="background-color: #db901e"><h4>Clarion</h4><div class="attb"><div class="alias">clarion</div><div class="ext">.clw</div></div></div>
-<div class="lang md" style="background-color: #3F85AF"><h4>Clean</h4><div class="attb"><div class="alias">clean</div><div class="ext">.icl .dcl</div></div></div>
-<div class="lang md" style="background-color: #E4E6F3"><h4>Click</h4><div class="attb"><div class="alias">click</div><div class="ext">.click</div></div></div>
-<div class="lang md" style="background-color: #db5855"><h4>Clojure</h4><div class="attb"><div class="alias">clojure</div><div class="ext">.clj .boot .cl2 .cljc .cljs .cljs.hl .cljscm .cljx .hic</div></div></div>
+<div class="lang md" style="background-color: #3f85af"><h4>Clean</h4><div class="attb"><div class="alias">clean</div><div class="ext">.icl .dcl</div></div></div>
+<div class="lang inverted" style="background-color: #e4e6f3"><h4>Click</h4><div class="attb"><div class="alias">click</div><div class="ext">.click</div></div></div>
+<div class="lang inverted" style="background-color: #db5855"><h4>Clojure</h4><div class="attb"><div class="alias">clojure</div><div class="ext">.clj .boot .cl2 .cljc .cljs .cljs.hl .cljscm .cljx .hic</div></div></div>
 <div class="lang md" style="background-color: #244776"><h4>CoffeeScript</h4><div class="attb"><div class="alias">coffeescript, coffee, coffee-script</div><div class="ext">.coffee ._coffee .cake .cjsx .iced</div></div></div>
-<div class="lang md" style="background-color: #ed2cd6"><h4>ColdFusion</h4><div class="attb"><div class="alias">coldfusion, cfm, cfml, coldfusion html</div><div class="ext">.cfm .cfml</div></div></div>
+<div class="lang inverted" style="background-color: #ed2cd6"><h4>ColdFusion</h4><div class="attb"><div class="alias">coldfusion, cfm, cfml, coldfusion html</div><div class="ext">.cfm .cfml</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>ColdFusion CFC</h4><div class="attb"><div class="alias">coldfusioncfc, cfc</div><div class="ext">.cfc</div></div></div>
 <div class="lang md" style="background-color: #3fb68b"><h4>Common Lisp</h4><div class="attb"><div class="alias">commonlisp, lisp</div><div class="ext">.lisp .asd .cl .l .lsp .ny .podsl .sexp</div></div></div>
-<div class="lang md" style="background-color: #B0CE4E"><h4>Component Pascal</h4><div class="attb"><div class="alias">componentpascal, delphi, objectpascal</div><div class="ext">.cp .cps</div></div></div>
+<div class="lang inverted" style="background-color: #b0ce4e"><h4>Component Pascal</h4><div class="attb"><div class="alias">componentpascal, delphi, objectpascal</div><div class="ext">.cp .cps</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Cool</h4><div class="attb"><div class="alias">cool</div><div class="ext">.cl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Coq</h4><div class="attb"><div class="alias">coq</div><div class="ext">.coq .v</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Cpp-ObjDump</h4><div class="attb"><div class="alias">cppobjdump, c++-objdump</div><div class="ext">.cppobjdump .c++-objdump .c++objdump .cpp-objdump .cxx-objdump</div></div></div>
@@ -159,40 +165,40 @@
 <div class="lang md" style="background-color: #202020"><h4>Csound</h4><div class="attb"><div class="alias">csound, csound-orc</div><div class="ext">.orc .udo</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Csound Document</h4><div class="attb"><div class="alias">csounddocument, csound-csd</div><div class="ext">.csd</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Csound Score</h4><div class="attb"><div class="alias">csoundscore, csound-sco</div><div class="ext">.sco</div></div></div>
-<div class="lang md" style="background-color: #3A4E3A"><h4>Cuda</h4><div class="attb"><div class="alias">cuda</div><div class="ext">.cu .cuh</div></div></div>
+<div class="lang md" style="background-color: #3a4e3a"><h4>Cuda</h4><div class="attb"><div class="alias">cuda</div><div class="ext">.cu .cuh</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Cycript</h4><div class="attb"><div class="alias">cycript</div><div class="ext">.cy</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Cython</h4><div class="attb"><div class="alias">cython, pyrex</div><div class="ext">.pyx .pxd .pxi</div></div></div>
-<div class="lang md" style="background-color: #ba595e"><h4>D</h4><div class="attb"><div class="alias">d</div><div class="ext">.d .di</div></div></div>
+<div class="lang inverted" style="background-color: #ba595e"><h4>D</h4><div class="attb"><div class="alias">d</div><div class="ext">.d .di</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>D-ObjDump</h4><div class="attb"><div class="alias">dobjdump</div><div class="ext">.d-objdump</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>DIGITAL Command Language</h4><div class="attb"><div class="alias">digitalcommandlanguage, dcl</div><div class="ext">.com</div></div></div>
 <div class="lang md" style="background-color: #447265"><h4>DM</h4><div class="attb"><div class="alias">dm, byond</div><div class="ext">.dm</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>DNS Zone</h4><div class="attb"><div class="alias">dnszone</div><div class="ext">.zone .arpa</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>DTrace</h4><div class="attb"><div class="alias">dtrace, dtrace-script</div><div class="ext">.d</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Darcs Patch</h4><div class="attb"><div class="alias">darcspatch, dpatch</div><div class="ext">.darcspatch .dpatch</div></div></div>
-<div class="lang md" style="background-color: #00B4AB"><h4>Dart</h4><div class="attb"><div class="alias">dart</div><div class="ext">.dart</div></div></div>
+<div class="lang md" style="background-color: #00b4ab"><h4>Dart</h4><div class="attb"><div class="alias">dart</div><div class="ext">.dart</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Diff</h4><div class="attb"><div class="alias">diff, udiff</div><div class="ext">.diff .patch</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Dockerfile</h4><div class="attb"><div class="alias">dockerfile</div><div class="ext">.dockerfile</div></div></div>
-<div class="lang md" style="background-color: #cca760"><h4>Dogescript</h4><div class="attb"><div class="alias">dogescript</div><div class="ext">.djs</div></div></div>
+<div class="lang inverted" style="background-color: #cca760"><h4>Dogescript</h4><div class="attb"><div class="alias">dogescript</div><div class="ext">.djs</div></div></div>
 <div class="lang md" style="background-color: #6c616e"><h4>Dylan</h4><div class="attb"><div class="alias">dylan</div><div class="ext">.dylan .dyl .intr .lid</div></div></div>
-<div class="lang md" style="background-color: #ccce35"><h4>E</h4><div class="attb"><div class="alias">e</div><div class="ext">.E</div></div></div>
+<div class="lang inverted" style="background-color: #ccce35"><h4>E</h4><div class="attb"><div class="alias">e</div><div class="ext">.E</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>EBNF</h4><div class="attb"><div class="alias">ebnf</div><div class="ext">.ebnf</div></div></div>
 <div class="lang md" style="background-color: #8a1267"><h4>ECL</h4><div class="attb"><div class="alias">ecl</div><div class="ext">.ecl .eclxml</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>ECLiPSe</h4><div class="attb"><div class="alias">eclipse</div><div class="ext">.ecl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>EJS</h4><div class="attb"><div class="alias">ejs</div><div class="ext">.ejs</div></div></div>
 <div class="lang md" style="background-color: #a78649"><h4>EQ</h4><div class="attb"><div class="alias">eq</div><div class="ext">.eq</div></div></div>
-<div class="lang md" style="background-color: #814C05"><h4>Eagle</h4><div class="attb"><div class="alias">eagle</div><div class="ext">.sch .brd</div></div></div>
+<div class="lang md" style="background-color: #814c05"><h4>Eagle</h4><div class="attb"><div class="alias">eagle</div><div class="ext">.sch .brd</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Ecere Projects</h4><div class="attb"><div class="alias">ecereprojects</div><div class="ext">.epj</div></div></div>
 <div class="lang md" style="background-color: #946d57"><h4>Eiffel</h4><div class="attb"><div class="alias">eiffel</div><div class="ext">.e</div></div></div>
 <div class="lang md" style="background-color: #6e4a7e"><h4>Elixir</h4><div class="attb"><div class="alias">elixir</div><div class="ext">.ex .exs</div></div></div>
-<div class="lang md" style="background-color: #60B5CC"><h4>Elm</h4><div class="attb"><div class="alias">elm</div><div class="ext">.elm</div></div></div>
-<div class="lang md" style="background-color: #c065db"><h4>Emacs Lisp</h4><div class="attb"><div class="alias">emacslisp, elisp, emacs</div><div class="ext">.el .emacs .emacs.desktop</div></div></div>
-<div class="lang md" style="background-color: #FFF4F3"><h4>EmberScript</h4><div class="attb"><div class="alias">emberscript</div><div class="ext">.em .emberscript</div></div></div>
-<div class="lang md" style="background-color: #B83998"><h4>Erlang</h4><div class="attb"><div class="alias">erlang</div><div class="ext">.erl .app.src .es .escript .hrl .xrl .yrl</div></div></div>
-<div class="lang md" style="background-color: #b845fc"><h4>F#</h4><div class="attb"><div class="alias">f, fsharp</div><div class="ext">.fs .fsi .fsx</div></div></div>
-<div class="lang md" style="background-color: #88ccff"><h4>FLUX</h4><div class="attb"><div class="alias">flux</div><div class="ext">.fx .flux</div></div></div>
+<div class="lang inverted" style="background-color: #60b5cc"><h4>Elm</h4><div class="attb"><div class="alias">elm</div><div class="ext">.elm</div></div></div>
+<div class="lang inverted" style="background-color: #c065db"><h4>Emacs Lisp</h4><div class="attb"><div class="alias">emacslisp, elisp, emacs</div><div class="ext">.el .emacs .emacs.desktop</div></div></div>
+<div class="lang inverted" style="background-color: #fff4f3"><h4>EmberScript</h4><div class="attb"><div class="alias">emberscript</div><div class="ext">.em .emberscript</div></div></div>
+<div class="lang md" style="background-color: #b83998"><h4>Erlang</h4><div class="attb"><div class="alias">erlang</div><div class="ext">.erl .app.src .es .escript .hrl .xrl .yrl</div></div></div>
+<div class="lang inverted" style="background-color: #b845fc"><h4>F#</h4><div class="attb"><div class="alias">f, fsharp</div><div class="ext">.fs .fsi .fsx</div></div></div>
+<div class="lang inverted" style="background-color: #88ccff"><h4>FLUX</h4><div class="attb"><div class="alias">flux</div><div class="ext">.fx .flux</div></div></div>
 <div class="lang md" style="background-color: #636746"><h4>Factor</h4><div class="attb"><div class="alias">factor</div><div class="ext">.factor</div></div></div>
-<div class="lang md" style="background-color: #7b9db4"><h4>Fancy</h4><div class="attb"><div class="alias">fancy</div><div class="ext">.fy .fancypack</div></div></div>
-<div class="lang md" style="background-color: #dbded5"><h4>Fantom</h4><div class="attb"><div class="alias">fantom</div><div class="ext">.fan</div></div></div>
+<div class="lang inverted" style="background-color: #7b9db4"><h4>Fancy</h4><div class="attb"><div class="alias">fancy</div><div class="ext">.fy .fancypack</div></div></div>
+<div class="lang inverted" style="background-color: #dbded5"><h4>Fantom</h4><div class="attb"><div class="alias">fantom</div><div class="ext">.fan</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Filebench WML</h4><div class="attb"><div class="alias">filebenchwml</div><div class="ext">.f</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Filterscript</h4><div class="attb"><div class="alias">filterscript</div><div class="ext">.fs</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Formatted</h4><div class="attb"><div class="alias">formatted</div><div class="ext">.for .eam.fs</div></div></div>
@@ -209,41 +215,41 @@
 <div class="lang lg" style="background-color: #202020"><h4>GLSL</h4><div class="attb"><div class="alias">glsl</div><div class="ext">.glsl .fp .frag .frg .fs .fsh .fshader .geo .geom .glslv .gshader .shader .vert .vrx .vsh .vshader</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>GN</h4><div class="attb"><div class="alias">gn</div><div class="ext">.gn .gni</div></div></div>
 <div class="lang md" style="background-color: #8fb200"><h4>Game Maker Language</h4><div class="attb"><div class="alias">gamemakerlanguage</div><div class="ext">.gml</div></div></div>
-<div class="lang md" style="background-color: #fb855d"><h4>Genie</h4><div class="attb"><div class="alias">genie</div><div class="ext">.gs</div></div></div>
+<div class="lang inverted" style="background-color: #fb855d"><h4>Genie</h4><div class="attb"><div class="alias">genie</div><div class="ext">.gs</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Genshi</h4><div class="attb"><div class="alias">genshi, xml+genshi, xml+kid</div><div class="ext">.kid</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Gentoo Ebuild</h4><div class="attb"><div class="alias">gentooebuild</div><div class="ext">.ebuild</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Gentoo Eclass</h4><div class="attb"><div class="alias">gentooeclass</div><div class="ext">.eclass</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Gettext Catalog</h4><div class="attb"><div class="alias">gettextcatalog, pot</div><div class="ext">.po .pot</div></div></div>
-<div class="lang md" style="background-color: #5B2063"><h4>Gherkin</h4><div class="attb"><div class="alias">gherkin, cucumber</div><div class="ext">.feature</div></div></div>
-<div class="lang md" style="background-color: #e4cc98"><h4>Glyph</h4><div class="attb"><div class="alias">glyph</div><div class="ext">.glf</div></div></div>
-<div class="lang md" style="background-color: #f0a9f0"><h4>Gnuplot</h4><div class="attb"><div class="alias">gnuplot</div><div class="ext">.gp .gnu .gnuplot .plot .plt</div></div></div>
+<div class="lang md" style="background-color: #5b2063"><h4>Gherkin</h4><div class="attb"><div class="alias">gherkin, cucumber</div><div class="ext">.feature</div></div></div>
+<div class="lang inverted" style="background-color: #e4cc98"><h4>Glyph</h4><div class="attb"><div class="alias">glyph</div><div class="ext">.glf</div></div></div>
+<div class="lang inverted" style="background-color: #f0a9f0"><h4>Gnuplot</h4><div class="attb"><div class="alias">gnuplot</div><div class="ext">.gp .gnu .gnuplot .plot .plt</div></div></div>
 <div class="lang md" style="background-color: #375eab"><h4>Go</h4><div class="attb"><div class="alias">go, golang</div><div class="ext">.go</div></div></div>
-<div class="lang md" style="background-color: #88562A"><h4>Golo</h4><div class="attb"><div class="alias">golo</div><div class="ext">.golo</div></div></div>
-<div class="lang md" style="background-color: #82937f"><h4>Gosu</h4><div class="attb"><div class="alias">gosu</div><div class="ext">.gs .gst .gsx .vark</div></div></div>
+<div class="lang md" style="background-color: #88562a"><h4>Golo</h4><div class="attb"><div class="alias">golo</div><div class="ext">.golo</div></div></div>
+<div class="lang inverted" style="background-color: #82937f"><h4>Gosu</h4><div class="attb"><div class="alias">gosu</div><div class="ext">.gs .gst .gsx .vark</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Grace</h4><div class="attb"><div class="alias">grace</div><div class="ext">.grace</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Gradle</h4><div class="attb"><div class="alias">gradle</div><div class="ext">.gradle</div></div></div>
-<div class="lang md" style="background-color: #79aa7a"><h4>Grammatical Framework</h4><div class="attb"><div class="alias">grammaticalframework, gf</div><div class="ext">.gf</div></div></div>
+<div class="lang inverted" style="background-color: #79aa7a"><h4>Grammatical Framework</h4><div class="attb"><div class="alias">grammaticalframework, gf</div><div class="ext">.gf</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Graph Modeling Language</h4><div class="attb"><div class="alias">graphmodelinglanguage</div><div class="ext">.gml</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>GraphQL</h4><div class="attb"><div class="alias">graphql</div><div class="ext">.graphql</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Graphviz (DOT)</h4><div class="attb"><div class="alias">graphvizdot</div><div class="ext">.dot .gv</div></div></div>
-<div class="lang md" style="background-color: #e69f56"><h4>Groovy</h4><div class="attb"><div class="alias">groovy</div><div class="ext">.groovy .grt .gtpl .gvy</div></div></div>
+<div class="lang inverted" style="background-color: #e69f56"><h4>Groovy</h4><div class="attb"><div class="alias">groovy</div><div class="ext">.groovy .grt .gtpl .gvy</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Groovy Server Pages</h4><div class="attb"><div class="alias">groovyserverpages, gsp, java server page</div><div class="ext">.gsp</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>HCL</h4><div class="attb"><div class="alias">hcl</div><div class="ext">.hcl .tf</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>HLSL</h4><div class="attb"><div class="alias">hlsl</div><div class="ext">.hlsl .fx .fxh .hlsli</div></div></div>
-<div class="lang md" style="background-color: #e44b23"><h4>HTML</h4><div class="attb"><div class="alias">html, xhtml</div><div class="ext">.html .htm .html.hl .inc .st .xht .xhtml</div></div></div>
+<div class="lang inverted" style="background-color: #e44b23"><h4>HTML</h4><div class="attb"><div class="alias">html, xhtml</div><div class="ext">.html .htm .html.hl .inc .st .xht .xhtml</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>HTML+Django</h4><div class="attb"><div class="alias">htmldjango, django, html+django/jinja, html+jinja, htmldjango, njk, nunjucks</div><div class="ext">.jinja .mustache .njk</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>HTML+ECR</h4><div class="attb"><div class="alias">htmlecr, ecr</div><div class="ext">.ecr</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>HTML+EEX</h4><div class="attb"><div class="alias">htmleex, eex</div><div class="ext">.eex</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>HTML+ERB</h4><div class="attb"><div class="alias">htmlerb, erb</div><div class="ext">.erb .erb.deface</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>HTML+PHP</h4><div class="attb"><div class="alias">htmlphp</div><div class="ext">.phtml</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>HTTP</h4><div class="attb"><div class="alias">http</div><div class="ext">.http</div></div></div>
-<div class="lang md" style="background-color: #878787"><h4>Hack</h4><div class="attb"><div class="alias">hack</div><div class="ext">.hh .php</div></div></div>
+<div class="lang inverted" style="background-color: #878787"><h4>Hack</h4><div class="attb"><div class="alias">hack</div><div class="ext">.hh .php</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Haml</h4><div class="attb"><div class="alias">haml</div><div class="ext">.haml .haml.deface</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Handlebars</h4><div class="attb"><div class="alias">handlebars, hbs, htmlbars</div><div class="ext">.handlebars .hbs</div></div></div>
 <div class="lang md" style="background-color: #0e60e3"><h4>Harbour</h4><div class="attb"><div class="alias">harbour</div><div class="ext">.hb</div></div></div>
 <div class="lang md" style="background-color: #29b544"><h4>Haskell</h4><div class="attb"><div class="alias">haskell</div><div class="ext">.hs .hsc</div></div></div>
 <div class="lang md" style="background-color: #df7900"><h4>Haxe</h4><div class="attb"><div class="alias">haxe</div><div class="ext">.hx .hxsl</div></div></div>
-<div class="lang md" style="background-color: #7790B2"><h4>Hy</h4><div class="attb"><div class="alias">hy, hylang</div><div class="ext">.hy</div></div></div>
+<div class="lang inverted" style="background-color: #7790b2"><h4>Hy</h4><div class="attb"><div class="alias">hy, hylang</div><div class="ext">.hy</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>HyPhy</h4><div class="attb"><div class="alias">hyphy</div><div class="ext">.bf</div></div></div>
 <div class="lang md" style="background-color: #a3522f"><h4>IDL</h4><div class="attb"><div class="alias">idl</div><div class="ext">.pro .dlm</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>IGOR Pro</h4><div class="attb"><div class="alias">igorpro, igor, igorpro</div><div class="ext">.ipf</div></div></div>
@@ -254,35 +260,35 @@
 <div class="lang md" style="background-color: #202020"><h4>Inno Setup</h4><div class="attb"><div class="alias">innosetup</div><div class="ext">.iss</div></div></div>
 <div class="lang md" style="background-color: #a9188d"><h4>Io</h4><div class="attb"><div class="alias">io</div><div class="ext">.io</div></div></div>
 <div class="lang md" style="background-color: #078193"><h4>Ioke</h4><div class="attb"><div class="alias">ioke</div><div class="ext">.ik</div></div></div>
-<div class="lang md" style="background-color: #FEFE00"><h4>Isabelle</h4><div class="attb"><div class="alias">isabelle</div><div class="ext">.thy</div></div></div>
+<div class="lang md" style="background-color: #fefe00"><h4>Isabelle</h4><div class="attb"><div class="alias">isabelle</div><div class="ext">.thy</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Isabelle ROOT</h4><div class="attb"><div class="alias">isabelleroot</div><div class="ext"></div></div></div>
-<div class="lang md" style="background-color: #9EEDFF"><h4>J</h4><div class="attb"><div class="alias">j</div><div class="ext">.ijs</div></div></div>
+<div class="lang inverted" style="background-color: #9eedff"><h4>J</h4><div class="attb"><div class="alias">j</div><div class="ext">.ijs</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>JFlex</h4><div class="attb"><div class="alias">jflex</div><div class="ext">.flex .jflex</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>JSON</h4><div class="attb"><div class="alias">json</div><div class="ext">.json .geojson .JSON-tmLanguage .topojson</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>JSON5</h4><div class="attb"><div class="alias">json5</div><div class="ext">.json5</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>JSONLD</h4><div class="attb"><div class="alias">jsonld</div><div class="ext">.jsonld</div></div></div>
-<div class="lang md" style="background-color: #40d47e"><h4>JSONiq</h4><div class="attb"><div class="alias">jsoniq</div><div class="ext">.jq</div></div></div>
+<div class="lang inverted" style="background-color: #40d47e"><h4>JSONiq</h4><div class="attb"><div class="alias">jsoniq</div><div class="ext">.jq</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>JSX</h4><div class="attb"><div class="alias">jsx</div><div class="ext">.jsx</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Jasmin</h4><div class="attb"><div class="alias">jasmin</div><div class="ext">.j</div></div></div>
 <div class="lang md" style="background-color: #b07219"><h4>Java</h4><div class="attb"><div class="alias">java</div><div class="ext">.java</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Java Server Pages</h4><div class="attb"><div class="alias">javaserverpages, jsp</div><div class="ext">.jsp</div></div></div>
-<div class="lang lg" style="background-color: #f1e05a"><h4>JavaScript</h4><div class="attb"><div class="alias">javascript, js, node</div><div class="ext">.js ._js .bones .es .es6 .frag .gs .jake .jsb .jscad .jsfl .jsm .jss .njs .pac .sjs .ssjs .xsjs .xsjslib</div></div></div>
-<div class="lang md" style="background-color: #a270ba"><h4>Julia</h4><div class="attb"><div class="alias">julia</div><div class="ext">.jl</div></div></div>
-<div class="lang md" style="background-color: #DA5B0B"><h4>Jupyter Notebook</h4><div class="attb"><div class="alias">jupyternotebook, IPython Notebook</div><div class="ext">.ipynb</div></div></div>
+<div class="lang inverted" style="background-color: #f1e05a"><h4>JavaScript</h4><div class="attb"><div class="alias">javascript, js, node</div><div class="ext">.js ._js .bones .es .es6 .frag .gs .jake .jsb .jscad .jsfl .jsm .jss .njs .pac .sjs .ssjs .xsjs .xsjslib</div></div></div>
+<div class="lang inverted" style="background-color: #a270ba"><h4>Julia</h4><div class="attb"><div class="alias">julia</div><div class="ext">.jl</div></div></div>
+<div class="lang md" style="background-color: #da5b0b"><h4>Jupyter Notebook</h4><div class="attb"><div class="alias">jupyternotebook, IPython Notebook</div><div class="ext">.ipynb</div></div></div>
 <div class="lang md" style="background-color: #28431f"><h4>KRL</h4><div class="attb"><div class="alias">krl</div><div class="ext">.krl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>KiCad</h4><div class="attb"><div class="alias">kicad</div><div class="ext">.sch .brd .kicad_pcb</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Kit</h4><div class="attb"><div class="alias">kit</div><div class="ext">.kit</div></div></div>
-<div class="lang md" style="background-color: #F18E33"><h4>Kotlin</h4><div class="attb"><div class="alias">kotlin</div><div class="ext">.kt .ktm .kts</div></div></div>
+<div class="lang inverted" style="background-color: #f18e33"><h4>Kotlin</h4><div class="attb"><div class="alias">kotlin</div><div class="ext">.kt .ktm .kts</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>LFE</h4><div class="attb"><div class="alias">lfe</div><div class="ext">.lfe</div></div></div>
 <div class="lang md" style="background-color: #185619"><h4>LLVM</h4><div class="attb"><div class="alias">llvm</div><div class="ext">.ll</div></div></div>
 <div class="lang md" style="background-color: #cc9900"><h4>LOLCODE</h4><div class="attb"><div class="alias">lolcode</div><div class="ext">.lol</div></div></div>
 <div class="lang md" style="background-color: #3d9970"><h4>LSL</h4><div class="attb"><div class="alias">lsl</div><div class="ext">.lsl .lslp</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>LabVIEW</h4><div class="attb"><div class="alias">labview</div><div class="ext">.lvproj</div></div></div>
-<div class="lang md" style="background-color: #999999"><h4>Lasso</h4><div class="attb"><div class="alias">lasso, lassoscript</div><div class="ext">.lasso .las .lasso8 .lasso9 .ldml</div></div></div>
+<div class="lang inverted" style="background-color: #999999"><h4>Lasso</h4><div class="attb"><div class="alias">lasso, lassoscript</div><div class="ext">.lasso .las .lasso8 .lasso9 .ldml</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Latte</h4><div class="attb"><div class="alias">latte</div><div class="ext">.latte</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Lean</h4><div class="attb"><div class="alias">lean</div><div class="ext">.lean .hlean</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Less</h4><div class="attb"><div class="alias">less</div><div class="ext">.less</div></div></div>
-<div class="lang md" style="background-color: #DBCA00"><h4>Lex</h4><div class="attb"><div class="alias">lex, flex</div><div class="ext">.l .lex</div></div></div>
+<div class="lang md" style="background-color: #dbca00"><h4>Lex</h4><div class="attb"><div class="alias">lex, flex</div><div class="ext">.l .lex</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>LilyPond</h4><div class="attb"><div class="alias">lilypond</div><div class="ext">.ly .ily</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Limbo</h4><div class="attb"><div class="alias">limbo</div><div class="ext">.b .m</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Linker Script</h4><div class="attb"><div class="alias">linkerscript</div><div class="ext">.ld .lds</div></div></div>
@@ -294,27 +300,27 @@
 <div class="lang md" style="background-color: #499886"><h4>LiveScript</h4><div class="attb"><div class="alias">livescript, live-script, ls</div><div class="ext">.ls ._ls</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Logos</h4><div class="attb"><div class="alias">logos</div><div class="ext">.xm .x .xi</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Logtalk</h4><div class="attb"><div class="alias">logtalk</div><div class="ext">.lgt .logtalk</div></div></div>
-<div class="lang md" style="background-color: #652B81"><h4>LookML</h4><div class="attb"><div class="alias">lookml</div><div class="ext">.lookml</div></div></div>
+<div class="lang md" style="background-color: #652b81"><h4>LookML</h4><div class="attb"><div class="alias">lookml</div><div class="ext">.lookml</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>LoomScript</h4><div class="attb"><div class="alias">loomscript</div><div class="ext">.ls</div></div></div>
 <div class="lang md" style="background-color: #000080"><h4>Lua</h4><div class="attb"><div class="alias">lua</div><div class="ext">.lua .fcgi .nse .pd_lua .rbxs .wlua</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>M</h4><div class="attb"><div class="alias">m, mumps</div><div class="ext">.mumps .m</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>M4</h4><div class="attb"><div class="alias">m4</div><div class="ext">.m4</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>M4Sugar</h4><div class="attb"><div class="alias">m4sugar, autoconf</div><div class="ext">.m4</div></div></div>
 <div class="lang md" style="background-color: #00a6a6"><h4>MAXScript</h4><div class="attb"><div class="alias">maxscript</div><div class="ext">.ms .mcr</div></div></div>
-<div class="lang md" style="background-color: #62A8D6"><h4>MQL4</h4><div class="attb"><div class="alias">mql4</div><div class="ext">.mq4 .mqh</div></div></div>
-<div class="lang md" style="background-color: #4A76B8"><h4>MQL5</h4><div class="attb"><div class="alias">mql5</div><div class="ext">.mq5 .mqh</div></div></div>
-<div class="lang md" style="background-color: #b7e1f4"><h4>MTML</h4><div class="attb"><div class="alias">mtml</div><div class="ext">.mtml</div></div></div>
+<div class="lang inverted" style="background-color: #62a8d6"><h4>MQL4</h4><div class="attb"><div class="alias">mql4</div><div class="ext">.mq4 .mqh</div></div></div>
+<div class="lang inverted" style="background-color: #4a76b8"><h4>MQL5</h4><div class="attb"><div class="alias">mql5</div><div class="ext">.mq5 .mqh</div></div></div>
+<div class="lang inverted" style="background-color: #b7e1f4"><h4>MTML</h4><div class="attb"><div class="alias">mtml</div><div class="ext">.mtml</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>MUF</h4><div class="attb"><div class="alias">muf</div><div class="ext">.muf .m</div></div></div>
 <div class="lang md" style="background-color: #427819"><h4>Makefile</h4><div class="attb"><div class="alias">makefile, bsdmake, make, mf</div><div class="ext">.mak .d .make .mk .mkfile</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Mako</h4><div class="attb"><div class="alias">mako</div><div class="ext">.mako .mao</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Markdown</h4><div class="attb"><div class="alias">markdown</div><div class="ext">.md .markdown .mkd .mkdn .mkdown .ron</div></div></div>
-<div class="lang md" style="background-color: #f97732"><h4>Mask</h4><div class="attb"><div class="alias">mask</div><div class="ext">.mask</div></div></div>
+<div class="lang inverted" style="background-color: #f97732"><h4>Mask</h4><div class="attb"><div class="alias">mask</div><div class="ext">.mask</div></div></div>
 <div class="lang lg" style="background-color: #202020"><h4>Mathematica</h4><div class="attb"><div class="alias">mathematica, mma</div><div class="ext">.mathematica .cdf .m .ma .mt .nb .nbp .wl .wlt</div></div></div>
-<div class="lang md" style="background-color: #bb92ac"><h4>Matlab</h4><div class="attb"><div class="alias">matlab, octave</div><div class="ext">.matlab .m</div></div></div>
+<div class="lang inverted" style="background-color: #bb92ac"><h4>Matlab</h4><div class="attb"><div class="alias">matlab, octave</div><div class="ext">.matlab .m</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Maven POM</h4><div class="attb"><div class="alias">mavenpom</div><div class="ext"></div></div></div>
-<div class="lang md" style="background-color: #c4a79c"><h4>Max</h4><div class="attb"><div class="alias">max, max/msp, maxmsp</div><div class="ext">.maxpat .maxhelp .maxproj .mxt .pat</div></div></div>
+<div class="lang inverted" style="background-color: #c4a79c"><h4>Max</h4><div class="attb"><div class="alias">max, max/msp, maxmsp</div><div class="ext">.maxpat .maxhelp .maxproj .mxt .pat</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>MediaWiki</h4><div class="attb"><div class="alias">mediawiki</div><div class="ext">.mediawiki .wiki</div></div></div>
-<div class="lang md" style="background-color: #ff2b2b"><h4>Mercury</h4><div class="attb"><div class="alias">mercury</div><div class="ext">.m .moo</div></div></div>
+<div class="lang inverted" style="background-color: #ff2b2b"><h4>Mercury</h4><div class="attb"><div class="alias">mercury</div><div class="ext">.m .moo</div></div></div>
 <div class="lang md" style="background-color: #8f14e9"><h4>Metal</h4><div class="attb"><div class="alias">metal</div><div class="ext">.metal</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>MiniD</h4><div class="attb"><div class="alias">minid</div><div class="ext">.minid</div></div></div>
 <div class="lang md" style="background-color: #c7a938"><h4>Mirah</h4><div class="attb"><div class="alias">mirah</div><div class="ext">.druby .duby .mir .mirah</div></div></div>
@@ -329,25 +335,25 @@
 <div class="lang md" style="background-color: #202020"><h4>NL</h4><div class="attb"><div class="alias">nl</div><div class="ext">.nl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>NSIS</h4><div class="attb"><div class="alias">nsis</div><div class="ext">.nsi .nsh</div></div></div>
 <div class="lang md" style="background-color: #3d3c6e"><h4>Nemerle</h4><div class="attb"><div class="alias">nemerle</div><div class="ext">.n</div></div></div>
-<div class="lang md" style="background-color: #0aa0ff"><h4>NetLinx</h4><div class="attb"><div class="alias">netlinx</div><div class="ext">.axs .axi</div></div></div>
-<div class="lang md" style="background-color: #747faa"><h4>NetLinx+ERB</h4><div class="attb"><div class="alias">netlinxerb</div><div class="ext">.axs.erb .axi.erb</div></div></div>
-<div class="lang md" style="background-color: #ff6375"><h4>NetLogo</h4><div class="attb"><div class="alias">netlogo</div><div class="ext">.nlogo</div></div></div>
-<div class="lang md" style="background-color: #87AED7"><h4>NewLisp</h4><div class="attb"><div class="alias">newlisp</div><div class="ext">.nl .lisp .lsp</div></div></div>
-<div class="lang md" style="background-color: #9469E9"><h4>Nginx</h4><div class="attb"><div class="alias">nginx, nginx configuration file</div><div class="ext">.nginxconf .vhost</div></div></div>
+<div class="lang inverted" style="background-color: #0aa0ff"><h4>NetLinx</h4><div class="attb"><div class="alias">netlinx</div><div class="ext">.axs .axi</div></div></div>
+<div class="lang inverted" style="background-color: #747faa"><h4>NetLinx+ERB</h4><div class="attb"><div class="alias">netlinxerb</div><div class="ext">.axs.erb .axi.erb</div></div></div>
+<div class="lang inverted" style="background-color: #ff6375"><h4>NetLogo</h4><div class="attb"><div class="alias">netlogo</div><div class="ext">.nlogo</div></div></div>
+<div class="lang inverted" style="background-color: #87aed7"><h4>NewLisp</h4><div class="attb"><div class="alias">newlisp</div><div class="ext">.nl .lisp .lsp</div></div></div>
+<div class="lang inverted" style="background-color: #9469e9"><h4>Nginx</h4><div class="attb"><div class="alias">nginx, nginx configuration file</div><div class="ext">.nginxconf .vhost</div></div></div>
 <div class="lang md" style="background-color: #37775b"><h4>Nim</h4><div class="attb"><div class="alias">nim</div><div class="ext">.nim .nimrod</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Ninja</h4><div class="attb"><div class="alias">ninja</div><div class="ext">.ninja</div></div></div>
 <div class="lang md" style="background-color: #009917"><h4>Nit</h4><div class="attb"><div class="alias">nit</div><div class="ext">.nit</div></div></div>
-<div class="lang md" style="background-color: #7e7eff"><h4>Nix</h4><div class="attb"><div class="alias">nix, nixos</div><div class="ext">.nix</div></div></div>
-<div class="lang md" style="background-color: #c9df40"><h4>Nu</h4><div class="attb"><div class="alias">nu, nush</div><div class="ext">.nu</div></div></div>
+<div class="lang inverted" style="background-color: #7e7eff"><h4>Nix</h4><div class="attb"><div class="alias">nix, nixos</div><div class="ext">.nix</div></div></div>
+<div class="lang inverted" style="background-color: #c9df40"><h4>Nu</h4><div class="attb"><div class="alias">nu, nush</div><div class="ext">.nu</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>NumPy</h4><div class="attb"><div class="alias">numpy</div><div class="ext">.numpy .numpyw .numsc</div></div></div>
-<div class="lang md" style="background-color: #3be133"><h4>OCaml</h4><div class="attb"><div class="alias">ocaml</div><div class="ext">.ml .eliom .eliomi .ml4 .mli .mll .mly</div></div></div>
+<div class="lang inverted" style="background-color: #3be133"><h4>OCaml</h4><div class="attb"><div class="alias">ocaml</div><div class="ext">.ml .eliom .eliomi .ml4 .mli .mll .mly</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>ObjDump</h4><div class="attb"><div class="alias">objdump</div><div class="ext">.objdump</div></div></div>
-<div class="lang md" style="background-color: #438eff"><h4>Objective-C</h4><div class="attb"><div class="alias">objectivec, obj-c, objc, objectivec</div><div class="ext">.m .h</div></div></div>
-<div class="lang md" style="background-color: #6866fb"><h4>Objective-C++</h4><div class="attb"><div class="alias">objectivec, obj-c++, objc++, objectivec++</div><div class="ext">.mm</div></div></div>
-<div class="lang md" style="background-color: #ff0c5a"><h4>Objective-J</h4><div class="attb"><div class="alias">objectivej, obj-j, objectivej, objj</div><div class="ext">.j .sj</div></div></div>
-<div class="lang md" style="background-color: #cabbff"><h4>Omgrofl</h4><div class="attb"><div class="alias">omgrofl</div><div class="ext">.omgrofl</div></div></div>
+<div class="lang inverted" style="background-color: #438eff"><h4>Objective-C</h4><div class="attb"><div class="alias">objectivec, obj-c, objc, objectivec</div><div class="ext">.m .h</div></div></div>
+<div class="lang inverted" style="background-color: #6866fb"><h4>Objective-C++</h4><div class="attb"><div class="alias">objectivec, obj-c++, objc++, objectivec++</div><div class="ext">.mm</div></div></div>
+<div class="lang inverted" style="background-color: #ff0c5a"><h4>Objective-J</h4><div class="attb"><div class="alias">objectivej, obj-j, objectivej, objj</div><div class="ext">.j .sj</div></div></div>
+<div class="lang inverted" style="background-color: #cabbff"><h4>Omgrofl</h4><div class="attb"><div class="alias">omgrofl</div><div class="ext">.omgrofl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Opa</h4><div class="attb"><div class="alias">opa</div><div class="ext">.opa</div></div></div>
-<div class="lang md" style="background-color: #f7ede0"><h4>Opal</h4><div class="attb"><div class="alias">opal</div><div class="ext">.opal</div></div></div>
+<div class="lang inverted" style="background-color: #f7ede0"><h4>Opal</h4><div class="attb"><div class="alias">opal</div><div class="ext">.opal</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>OpenCL</h4><div class="attb"><div class="alias">opencl</div><div class="ext">.cl .opencl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>OpenEdge ABL</h4><div class="attb"><div class="alias">openedgeabl, progress, openedge, abl</div><div class="ext">.p .cls</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>OpenRC runscript</h4><div class="attb"><div class="alias">openrcrunscript, openrc</div><div class="ext"></div></div></div>
@@ -355,11 +361,11 @@
 <div class="lang md" style="background-color: #202020"><h4>OpenType Feature File</h4><div class="attb"><div class="alias">opentypefeaturefile, AFDKO</div><div class="ext">.fea</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Org</h4><div class="attb"><div class="alias">org</div><div class="ext">.org</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Ox</h4><div class="attb"><div class="alias">ox</div><div class="ext">.ox .oxh .oxo</div></div></div>
-<div class="lang md" style="background-color: #cdd0e3"><h4>Oxygene</h4><div class="attb"><div class="alias">oxygene</div><div class="ext">.oxygene</div></div></div>
-<div class="lang md" style="background-color: #fab738"><h4>Oz</h4><div class="attb"><div class="alias">oz</div><div class="ext">.oz</div></div></div>
-<div class="lang md" style="background-color: #dbb284"><h4>PAWN</h4><div class="attb"><div class="alias">pawn</div><div class="ext">.pwn .inc</div></div></div>
-<div class="lang lg" style="background-color: #4F5D95"><h4>PHP</h4><div class="attb"><div class="alias">php, inc</div><div class="ext">.php .aw .ctp .fcgi .inc .php3 .php4 .php5 .phps .phpt</div></div></div>
-<div class="lang md" style="background-color: #dad8d8"><h4>PLSQL</h4><div class="attb"><div class="alias">plsql</div><div class="ext">.pls .pck .pkb .pks .plb .plsql .sql</div></div></div>
+<div class="lang inverted" style="background-color: #cdd0e3"><h4>Oxygene</h4><div class="attb"><div class="alias">oxygene</div><div class="ext">.oxygene</div></div></div>
+<div class="lang inverted" style="background-color: #fab738"><h4>Oz</h4><div class="attb"><div class="alias">oz</div><div class="ext">.oz</div></div></div>
+<div class="lang inverted" style="background-color: #dbb284"><h4>PAWN</h4><div class="attb"><div class="alias">pawn</div><div class="ext">.pwn .inc</div></div></div>
+<div class="lang lg" style="background-color: #4f5d95"><h4>PHP</h4><div class="attb"><div class="alias">php, inc</div><div class="ext">.php .aw .ctp .fcgi .inc .php3 .php4 .php5 .phps .phpt</div></div></div>
+<div class="lang inverted" style="background-color: #dad8d8"><h4>PLSQL</h4><div class="attb"><div class="alias">plsql</div><div class="ext">.pls .pck .pkb .pks .plb .plsql .sql</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>PLpgSQL</h4><div class="attb"><div class="alias">plpgsql</div><div class="ext">.sql</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>POV-Ray SDL</h4><div class="attb"><div class="alias">povraysdl, pov-ray, povray</div><div class="ext">.pov .inc</div></div></div>
 <div class="lang md" style="background-color: #cc0000"><h4>Pan</h4><div class="attb"><div class="alias">pan</div><div class="ext">.pan</div></div></div>
@@ -367,13 +373,13 @@
 <div class="lang md" style="background-color: #f3ca0a"><h4>Parrot</h4><div class="attb"><div class="alias">parrot</div><div class="ext">.parrot</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Parrot Assembly</h4><div class="attb"><div class="alias">parrotassembly, pasm</div><div class="ext">.pasm</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Parrot Internal Representation</h4><div class="attb"><div class="alias">parrotinternalrepresentation, pir</div><div class="ext">.pir</div></div></div>
-<div class="lang md" style="background-color: #E3F171"><h4>Pascal</h4><div class="attb"><div class="alias">pascal</div><div class="ext">.pas .dfm .dpr .inc .lpr .pascal .pp</div></div></div>
+<div class="lang inverted" style="background-color: #e3f171"><h4>Pascal</h4><div class="attb"><div class="alias">pascal</div><div class="ext">.pas .dfm .dpr .inc .lpr .pascal .pp</div></div></div>
 <div class="lang lg" style="background-color: #0298c3"><h4>Perl</h4><div class="attb"><div class="alias">perl</div><div class="ext">.pl .al .cgi .fcgi .perl .ph .plx .pm .pod .psgi .t</div></div></div>
 <div class="lang lg" style="background-color: #0000fb"><h4>Perl6</h4><div class="attb"><div class="alias">perl6</div><div class="ext">.6pl .6pm .nqp .p6 .p6l .p6m .pl .pl6 .pm .pm6 .t</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Pic</h4><div class="attb"><div class="alias">pic</div><div class="ext">.pic .chem</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Pickle</h4><div class="attb"><div class="alias">pickle</div><div class="ext">.pkl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>PicoLisp</h4><div class="attb"><div class="alias">picolisp</div><div class="ext">.l</div></div></div>
-<div class="lang md" style="background-color: #fcd7de"><h4>PigLatin</h4><div class="attb"><div class="alias">piglatin</div><div class="ext">.pig</div></div></div>
+<div class="lang inverted" style="background-color: #fcd7de"><h4>PigLatin</h4><div class="attb"><div class="alias">piglatin</div><div class="ext">.pig</div></div></div>
 <div class="lang md" style="background-color: #005390"><h4>Pike</h4><div class="attb"><div class="alias">pike</div><div class="ext">.pike .pmod</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Pod</h4><div class="attb"><div class="alias">pod</div><div class="ext">.pod</div></div></div>
 <div class="lang md" style="background-color: #d80074"><h4>PogoScript</h4><div class="attb"><div class="alias">pogoscript</div><div class="ext">.pogo</div></div></div>
@@ -381,23 +387,23 @@
 <div class="lang md" style="background-color: #da291c"><h4>PostScript</h4><div class="attb"><div class="alias">postscript, postscr</div><div class="ext">.ps .eps</div></div></div>
 <div class="lang md" style="background-color: #8f0f8d"><h4>PowerBuilder</h4><div class="attb"><div class="alias">powerbuilder</div><div class="ext">.pbt .sra .sru .srw</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>PowerShell</h4><div class="attb"><div class="alias">powershell, posh</div><div class="ext">.ps1 .psd1 .psm1</div></div></div>
-<div class="lang md" style="background-color: #0096D8"><h4>Processing</h4><div class="attb"><div class="alias">processing</div><div class="ext">.pde</div></div></div>
+<div class="lang md" style="background-color: #0096d8"><h4>Processing</h4><div class="attb"><div class="alias">processing</div><div class="ext">.pde</div></div></div>
 <div class="lang md" style="background-color: #74283c"><h4>Prolog</h4><div class="attb"><div class="alias">prolog</div><div class="ext">.pl .pro .prolog .yap</div></div></div>
-<div class="lang md" style="background-color: #7fa2a7"><h4>Propeller Spin</h4><div class="attb"><div class="alias">propellerspin</div><div class="ext">.spin</div></div></div>
+<div class="lang inverted" style="background-color: #7fa2a7"><h4>Propeller Spin</h4><div class="attb"><div class="alias">propellerspin</div><div class="ext">.spin</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Protocol Buffer</h4><div class="attb"><div class="alias">protocolbuffer, protobuf, Protocol Buffers</div><div class="ext">.proto</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Public Key</h4><div class="attb"><div class="alias">publickey</div><div class="ext">.asc .pub</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Pug</h4><div class="attb"><div class="alias">pug</div><div class="ext">.jade .pug</div></div></div>
-<div class="lang md" style="background-color: #302B6D"><h4>Puppet</h4><div class="attb"><div class="alias">puppet</div><div class="ext">.pp</div></div></div>
-<div class="lang md" style="background-color: #91de79"><h4>Pure Data</h4><div class="attb"><div class="alias">puredata</div><div class="ext">.pd</div></div></div>
+<div class="lang md" style="background-color: #302b6d"><h4>Puppet</h4><div class="attb"><div class="alias">puppet</div><div class="ext">.pp</div></div></div>
+<div class="lang inverted" style="background-color: #91de79"><h4>Pure Data</h4><div class="attb"><div class="alias">puredata</div><div class="ext">.pd</div></div></div>
 <div class="lang md" style="background-color: #5a6986"><h4>PureBasic</h4><div class="attb"><div class="alias">purebasic</div><div class="ext">.pb .pbi</div></div></div>
-<div class="lang md" style="background-color: #1D222D"><h4>PureScript</h4><div class="attb"><div class="alias">purescript</div><div class="ext">.purs</div></div></div>
-<div class="lang lg" style="background-color: #3572A5"><h4>Python</h4><div class="attb"><div class="alias">python, rusthon</div><div class="ext">.py .bzl .cgi .fcgi .gyp .gypi .lmi .py3 .pyde .pyp .pyt .pyw .rpy .spec .tac .wsgi .xpy</div></div></div>
+<div class="lang md" style="background-color: #1d222d"><h4>PureScript</h4><div class="attb"><div class="alias">purescript</div><div class="ext">.purs</div></div></div>
+<div class="lang lg" style="background-color: #3572a5"><h4>Python</h4><div class="attb"><div class="alias">python, rusthon</div><div class="ext">.py .bzl .cgi .fcgi .gyp .gypi .lmi .py3 .pyde .pyp .pyt .pyw .rpy .spec .tac .wsgi .xpy</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Python console</h4><div class="attb"><div class="alias">pythonconsole, pycon</div><div class="ext"></div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Python traceback</h4><div class="attb"><div class="alias">pythontraceback</div><div class="ext">.pytb</div></div></div>
 <div class="lang md" style="background-color: #44a51c"><h4>QML</h4><div class="attb"><div class="alias">qml</div><div class="ext">.qml .qbs</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>QMake</h4><div class="attb"><div class="alias">qmake</div><div class="ext">.pro .pri</div></div></div>
-<div class="lang md" style="background-color: #198CE7"><h4>R</h4><div class="attb"><div class="alias">r, R, Rscript, splus</div><div class="ext">.r .rd .rsx</div></div></div>
-<div class="lang md" style="background-color: #77d9fb"><h4>RAML</h4><div class="attb"><div class="alias">raml</div><div class="ext">.raml</div></div></div>
+<div class="lang inverted" style="background-color: #198ce7"><h4>R</h4><div class="attb"><div class="alias">r, R, Rscript, splus</div><div class="ext">.r .rd .rsx</div></div></div>
+<div class="lang inverted" style="background-color: #77d9fb"><h4>RAML</h4><div class="attb"><div class="alias">raml</div><div class="ext">.raml</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>RDoc</h4><div class="attb"><div class="alias">rdoc</div><div class="ext">.rdoc</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>REALbasic</h4><div class="attb"><div class="alias">realbasic</div><div class="ext">.rbbas .rbfrm .rbmnu .rbres .rbtbar .rbuistate</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>REXX</h4><div class="attb"><div class="alias">rexx, arexx</div><div class="ext">.rexx .pprx .rex</div></div></div>
@@ -407,24 +413,24 @@
 <div class="lang md" style="background-color: #665a4e"><h4>RUNOFF</h4><div class="attb"><div class="alias">runoff</div><div class="ext">.rnh .rno</div></div></div>
 <div class="lang md" style="background-color: #22228f"><h4>Racket</h4><div class="attb"><div class="alias">racket</div><div class="ext">.rkt .rktd .rktl .scrbl</div></div></div>
 <div class="lang md" style="background-color: #9d5200"><h4>Ragel</h4><div class="attb"><div class="alias">ragel, ragel-rb, ragel-ruby</div><div class="ext">.rl</div></div></div>
-<div class="lang md" style="background-color: #fffaa0"><h4>Rascal</h4><div class="attb"><div class="alias">rascal</div><div class="ext">.rsc</div></div></div>
+<div class="lang inverted" style="background-color: #fffaa0"><h4>Rascal</h4><div class="attb"><div class="alias">rascal</div><div class="ext">.rsc</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Raw token data</h4><div class="attb"><div class="alias">rawtokendata, raw</div><div class="ext">.raw</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Reason</h4><div class="attb"><div class="alias">reason</div><div class="ext">.re .rei</div></div></div>
 <div class="lang md" style="background-color: #358a5b"><h4>Rebol</h4><div class="attb"><div class="alias">rebol</div><div class="ext">.reb .r .r2 .r3 .rebol</div></div></div>
 <div class="lang md" style="background-color: #f50000"><h4>Red</h4><div class="attb"><div class="alias">red, red/system</div><div class="ext">.red .reds</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Redcode</h4><div class="attb"><div class="alias">redcode</div><div class="ext">.cw</div></div></div>
-<div class="lang md" style="background-color: #ff7f7f"><h4>Ren'Py</h4><div class="attb"><div class="alias">renpy, renpy</div><div class="ext">.rpy</div></div></div>
+<div class="lang inverted" style="background-color: #ff7f7f"><h4>Ren'Py</h4><div class="attb"><div class="alias">renpy, renpy</div><div class="ext">.rpy</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>RenderScript</h4><div class="attb"><div class="alias">renderscript</div><div class="ext">.rs .rsh</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>RobotFramework</h4><div class="attb"><div class="alias">robotframework</div><div class="ext">.robot</div></div></div>
-<div class="lang xl" style="background-color: #ecdebe"><h4>Roff</h4><div class="attb"><div class="alias">roff, nroff</div><div class="ext">.man .1 .1in .1m .1x .2 .3 .3in .3m .3qt .3x .4 .5 .6 .7 .8 .9 .l .me .ms .n .rno .roff .tmac</div></div></div>
+<div class="lang inverted" style="background-color: #ecdebe"><h4>Roff</h4><div class="attb"><div class="alias">roff, nroff</div><div class="ext">.man .1 .1in .1m .1x .2 .3 .3in .3m .3qt .3x .4 .5 .6 .7 .8 .9 .l .me .ms .n .rno .roff .tmac</div></div></div>
 <div class="lang md" style="background-color: #cc0088"><h4>Rouge</h4><div class="attb"><div class="alias">rouge</div><div class="ext">.rg</div></div></div>
 <div class="lang xl" style="background-color: #701516"><h4>Ruby</h4><div class="attb"><div class="alias">ruby, jruby, macruby, rake, rb, rbx</div><div class="ext">.rb .builder .fcgi .gemspec .god .irbrc .jbuilder .mspec .pluginspec .podspec .rabl .rake .rbuild .rbw .rbx .ru .ruby .spec .thor .watchr</div></div></div>
-<div class="lang md" style="background-color: #dea584"><h4>Rust</h4><div class="attb"><div class="alias">rust</div><div class="ext">.rs .rs.in</div></div></div>
-<div class="lang md" style="background-color: #B34936"><h4>SAS</h4><div class="attb"><div class="alias">sas</div><div class="ext">.sas</div></div></div>
+<div class="lang inverted" style="background-color: #dea584"><h4>Rust</h4><div class="attb"><div class="alias">rust</div><div class="ext">.rs .rs.in</div></div></div>
+<div class="lang md" style="background-color: #b34936"><h4>SAS</h4><div class="attb"><div class="alias">sas</div><div class="ext">.sas</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>SCSS</h4><div class="attb"><div class="alias">scss</div><div class="ext">.scss</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>SMT</h4><div class="attb"><div class="alias">smt</div><div class="ext">.smt2 .smt</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>SPARQL</h4><div class="attb"><div class="alias">sparql</div><div class="ext">.sparql .rq</div></div></div>
-<div class="lang md" style="background-color: #3F3F3F"><h4>SQF</h4><div class="attb"><div class="alias">sqf</div><div class="ext">.sqf .hqf</div></div></div>
+<div class="lang md" style="background-color: #3f3f3f"><h4>SQF</h4><div class="attb"><div class="alias">sqf</div><div class="ext">.sqf .hqf</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>SQL</h4><div class="attb"><div class="alias">sql</div><div class="ext">.sql .cql .ddl .inc .mysql .prc .tab .udf .viw</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>SQLPL</h4><div class="attb"><div class="alias">sqlpl</div><div class="ext">.sql .db2</div></div></div>
 <div class="lang md" style="background-color: #348a34"><h4>SRecode Template</h4><div class="attb"><div class="alias">srecodetemplate</div><div class="ext">.srt</div></div></div>
@@ -435,12 +441,12 @@
 <div class="lang md" style="background-color: #202020"><h4>Sass</h4><div class="attb"><div class="alias">sass</div><div class="ext">.sass</div></div></div>
 <div class="lang md" style="background-color: #c22d40"><h4>Scala</h4><div class="attb"><div class="alias">scala</div><div class="ext">.scala .sbt .sc</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Scaml</h4><div class="attb"><div class="alias">scaml</div><div class="ext">.scaml</div></div></div>
-<div class="lang md" style="background-color: #1e4aec"><h4>Scheme</h4><div class="attb"><div class="alias">scheme</div><div class="ext">.scm .sld .sls .sps .ss</div></div></div>
+<div class="lang inverted" style="background-color: #1e4aec"><h4>Scheme</h4><div class="attb"><div class="alias">scheme</div><div class="ext">.scm .sld .sls .sps .ss</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Scilab</h4><div class="attb"><div class="alias">scilab</div><div class="ext">.sci .sce .tst</div></div></div>
 <div class="lang md" style="background-color: #0579aa"><h4>Self</h4><div class="attb"><div class="alias">self</div><div class="ext">.self</div></div></div>
-<div class="lang lg" style="background-color: #89e051"><h4>Shell</h4><div class="attb"><div class="alias">shell, sh, shell-script, bash, zsh</div><div class="ext">.sh .bash .bats .cgi .command .fcgi .ksh .sh.in .tmux .tool .zsh</div></div></div>
+<div class="lang inverted" style="background-color: #89e051"><h4>Shell</h4><div class="attb"><div class="alias">shell, sh, shell-script, bash, zsh</div><div class="ext">.sh .bash .bats .cgi .command .fcgi .ksh .sh.in .tmux .tool .zsh</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>ShellSession</h4><div class="attb"><div class="alias">shellsession, bash session, console</div><div class="ext">.sh-session</div></div></div>
-<div class="lang md" style="background-color: #120F14"><h4>Shen</h4><div class="attb"><div class="alias">shen</div><div class="ext">.shen</div></div></div>
+<div class="lang md" style="background-color: #120f14"><h4>Shen</h4><div class="attb"><div class="alias">shen</div><div class="ext">.shen</div></div></div>
 <div class="lang md" style="background-color: #007eff"><h4>Slash</h4><div class="attb"><div class="alias">slash</div><div class="ext">.sl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Slim</h4><div class="attb"><div class="alias">slim</div><div class="ext">.slim</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Smali</h4><div class="attb"><div class="alias">smali</div><div class="ext">.smali</div></div></div>
@@ -450,21 +456,21 @@
 <div class="lang md" style="background-color: #202020"><h4>Spline Font Database</h4><div class="attb"><div class="alias">splinefontdatabase</div><div class="ext">.sfd</div></div></div>
 <div class="lang md" style="background-color: #800000"><h4>Squirrel</h4><div class="attb"><div class="alias">squirrel</div><div class="ext">.nut</div></div></div>
 <div class="lang md" style="background-color: #b2011d"><h4>Stan</h4><div class="attb"><div class="alias">stan</div><div class="ext">.stan</div></div></div>
-<div class="lang md" style="background-color: #dc566d"><h4>Standard ML</h4><div class="attb"><div class="alias">standardml, sml</div><div class="ext">.ML .fun .sig .sml</div></div></div>
+<div class="lang inverted" style="background-color: #dc566d"><h4>Standard ML</h4><div class="attb"><div class="alias">standardml, sml</div><div class="ext">.ML .fun .sig .sml</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Stata</h4><div class="attb"><div class="alias">stata</div><div class="ext">.do .ado .doh .ihlp .mata .matah .sthlp</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Stylus</h4><div class="attb"><div class="alias">stylus</div><div class="ext">.styl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>SubRip Text</h4><div class="attb"><div class="alias">subriptext</div><div class="ext">.srt</div></div></div>
 <div class="lang lg" style="background-color: #202020"><h4>Sublime Text Config</h4><div class="attb"><div class="alias">sublimetextconfig</div><div class="ext">.sublime-build .sublime-commands .sublime-completions .sublime-keymap .sublime-macro .sublime-menu .sublime-mousemap .sublime-project .sublime-settings .sublime-theme .sublime-workspace .sublime_metrics .sublime_session</div></div></div>
 <div class="lang md" style="background-color: #46390b"><h4>SuperCollider</h4><div class="attb"><div class="alias">supercollider</div><div class="ext">.sc .scd</div></div></div>
-<div class="lang md" style="background-color: #ffac45"><h4>Swift</h4><div class="attb"><div class="alias">swift</div><div class="ext">.swift</div></div></div>
-<div class="lang md" style="background-color: #DAE1C2"><h4>SystemVerilog</h4><div class="attb"><div class="alias">systemverilog</div><div class="ext">.sv .svh .vh</div></div></div>
-<div class="lang md" style="background-color: #A0AA87"><h4>TI Program</h4><div class="attb"><div class="alias">tiprogram</div><div class="ext">.8xp .8xk .8xk.txt .8xp.txt</div></div></div>
+<div class="lang inverted" style="background-color: #ffac45"><h4>Swift</h4><div class="attb"><div class="alias">swift</div><div class="ext">.swift</div></div></div>
+<div class="lang inverted" style="background-color: #dae1c2"><h4>SystemVerilog</h4><div class="attb"><div class="alias">systemverilog</div><div class="ext">.sv .svh .vh</div></div></div>
+<div class="lang inverted" style="background-color: #a0aa87"><h4>TI Program</h4><div class="attb"><div class="alias">tiprogram</div><div class="ext">.8xp .8xk .8xk.txt .8xp.txt</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>TLA</h4><div class="attb"><div class="alias">tla</div><div class="ext">.tla</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>TOML</h4><div class="attb"><div class="alias">toml</div><div class="ext">.toml</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>TXL</h4><div class="attb"><div class="alias">txl</div><div class="ext">.txl</div></div></div>
-<div class="lang md" style="background-color: #e4cc98"><h4>Tcl</h4><div class="attb"><div class="alias">tcl</div><div class="ext">.tcl .adp .tm</div></div></div>
+<div class="lang inverted" style="background-color: #e4cc98"><h4>Tcl</h4><div class="attb"><div class="alias">tcl</div><div class="ext">.tcl .adp .tm</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Tcsh</h4><div class="attb"><div class="alias">tcsh</div><div class="ext">.tcsh .csh</div></div></div>
-<div class="lang lg" style="background-color: #3D6117"><h4>TeX</h4><div class="attb"><div class="alias">tex, latex</div><div class="ext">.tex .aux .bbx .bib .cbx .cls .dtx .ins .lbx .ltx .mkii .mkiv .mkvi .sty .toc</div></div></div>
+<div class="lang lg" style="background-color: #3d6117"><h4>TeX</h4><div class="attb"><div class="alias">tex, latex</div><div class="ext">.tex .aux .bbx .bib .cbx .cls .dtx .ins .lbx .ltx .mkii .mkiv .mkvi .sty .toc</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Tea</h4><div class="attb"><div class="alias">tea</div><div class="ext">.tea</div></div></div>
 <div class="lang md" style="background-color: #00004c"><h4>Terra</h4><div class="attb"><div class="alias">terra</div><div class="ext">.t</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Text</h4><div class="attb"><div class="alias">text, fundamental</div><div class="ext">.txt .fr .nb .ncl .no</div></div></div>
@@ -481,32 +487,32 @@
 <div class="lang md" style="background-color: #a54c4d"><h4>UnrealScript</h4><div class="attb"><div class="alias">unrealscript</div><div class="ext">.uc</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>UrWeb</h4><div class="attb"><div class="alias">urweb, Ur/Web, Ur</div><div class="ext">.ur .urs</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>VCL</h4><div class="attb"><div class="alias">vcl</div><div class="ext">.vcl</div></div></div>
-<div class="lang md" style="background-color: #adb2cb"><h4>VHDL</h4><div class="attb"><div class="alias">vhdl</div><div class="ext">.vhdl .vhd .vhf .vhi .vho .vhs .vht .vhw</div></div></div>
-<div class="lang md" style="background-color: #fbe5cd"><h4>Vala</h4><div class="attb"><div class="alias">vala</div><div class="ext">.vala .vapi</div></div></div>
-<div class="lang md" style="background-color: #b2b7f8"><h4>Verilog</h4><div class="attb"><div class="alias">verilog</div><div class="ext">.v .veo</div></div></div>
+<div class="lang inverted" style="background-color: #adb2cb"><h4>VHDL</h4><div class="attb"><div class="alias">vhdl</div><div class="ext">.vhdl .vhd .vhf .vhi .vho .vhs .vht .vhw</div></div></div>
+<div class="lang inverted" style="background-color: #fbe5cd"><h4>Vala</h4><div class="attb"><div class="alias">vala</div><div class="ext">.vala .vapi</div></div></div>
+<div class="lang inverted" style="background-color: #b2b7f8"><h4>Verilog</h4><div class="attb"><div class="alias">verilog</div><div class="ext">.v .veo</div></div></div>
 <div class="lang md" style="background-color: #199f4b"><h4>Vim script</h4><div class="attb"><div class="alias">vimscript, vim, viml, nvim</div><div class="ext">.vim</div></div></div>
-<div class="lang lg" style="background-color: #945db7"><h4>Visual Basic</h4><div class="attb"><div class="alias">visualbasic, vb.net, vbnet</div><div class="ext">.vb .bas .cls .frm .frx .vba .vbhtml .vbs</div></div></div>
-<div class="lang md" style="background-color: #1F1F1F"><h4>Volt</h4><div class="attb"><div class="alias">volt</div><div class="ext">.volt</div></div></div>
+<div class="lang inverted" style="background-color: #945db7"><h4>Visual Basic</h4><div class="attb"><div class="alias">visualbasic, vb.net, vbnet</div><div class="ext">.vb .bas .cls .frm .frx .vba .vbhtml .vbs</div></div></div>
+<div class="lang md" style="background-color: #1f1f1f"><h4>Volt</h4><div class="attb"><div class="alias">volt</div><div class="ext">.volt</div></div></div>
 <div class="lang md" style="background-color: #2c3e50"><h4>Vue</h4><div class="attb"><div class="alias">vue</div><div class="ext">.vue</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Wavefront Material</h4><div class="attb"><div class="alias">wavefrontmaterial</div><div class="ext">.mtl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Wavefront Object</h4><div class="attb"><div class="alias">wavefrontobject</div><div class="ext">.obj</div></div></div>
-<div class="lang md" style="background-color: #9cc9dd"><h4>Web Ontology Language</h4><div class="attb"><div class="alias">webontologylanguage</div><div class="ext">.owl</div></div></div>
+<div class="lang inverted" style="background-color: #9cc9dd"><h4>Web Ontology Language</h4><div class="attb"><div class="alias">webontologylanguage</div><div class="ext">.owl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>WebIDL</h4><div class="attb"><div class="alias">webidl</div><div class="ext">.webidl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>World of Warcraft Addon Data</h4><div class="attb"><div class="alias">worldofwarcraftaddondata</div><div class="ext">.toc</div></div></div>
-<div class="lang md" style="background-color: #4B6BEF"><h4>X10</h4><div class="attb"><div class="alias">x10, xten</div><div class="ext">.x10</div></div></div>
-<div class="lang md" style="background-color: #99DA07"><h4>XC</h4><div class="attb"><div class="alias">xc</div><div class="ext">.xc</div></div></div>
+<div class="lang inverted" style="background-color: #4b6bef"><h4>X10</h4><div class="attb"><div class="alias">x10, xten</div><div class="ext">.x10</div></div></div>
+<div class="lang md" style="background-color: #99da07"><h4>XC</h4><div class="attb"><div class="alias">xc</div><div class="ext">.xc</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>XCompose</h4><div class="attb"><div class="alias">xcompose</div><div class="ext"></div></div></div>
 <div class="lang xl" style="background-color: #202020"><h4>XML</h4><div class="attb"><div class="alias">xml, rss, xsd, wsdl</div><div class="ext">.xml .ant .axml .builds .ccxml .clixml .cproject .csl .csproj .ct .dita .ditamap .ditaval .dll.config .dotsettings .filters .fsproj .fxml .glade .gml .grxml .iml .ivy .jelly .jsproj .kml .launch .mdpolicy .mm .mod .mxml .nproj .nuspec .odd .osm .pkgproj .plist .pluginspec .props .ps1xml .psc1 .pt .rdf .resx .rss .sch .scxml .sfproj .srdf .storyboard .stTheme .sublime-snippet .targets .tmCommand .tml .tmLanguage .tmPreferences .tmSnippet .tmTheme .ts .tsx .ui .urdf .ux .vbproj .vcxproj .vssettings .vxml .wsdl .wsf .wxi .wxl .wxs .x3d .xacro .xaml .xib .xlf .xliff .xmi .xml.dist .xproj .xsd .xul .zcml</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>XPages</h4><div class="attb"><div class="alias">xpages</div><div class="ext">.xsp-config .xsp.metadata</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>XProc</h4><div class="attb"><div class="alias">xproc</div><div class="ext">.xpl .xproc</div></div></div>
-<div class="lang md" style="background-color: #5232e7"><h4>XQuery</h4><div class="attb"><div class="alias">xquery</div><div class="ext">.xquery .xq .xql .xqm .xqy</div></div></div>
+<div class="lang inverted" style="background-color: #5232e7"><h4>XQuery</h4><div class="attb"><div class="alias">xquery</div><div class="ext">.xquery .xq .xql .xqm .xqy</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>XS</h4><div class="attb"><div class="alias">xs</div><div class="ext">.xs</div></div></div>
-<div class="lang md" style="background-color: #EB8CEB"><h4>XSLT</h4><div class="attb"><div class="alias">xslt, xsl</div><div class="ext">.xslt .xsl</div></div></div>
+<div class="lang inverted" style="background-color: #eb8ceb"><h4>XSLT</h4><div class="attb"><div class="alias">xslt, xsl</div><div class="ext">.xslt .xsl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Xojo</h4><div class="attb"><div class="alias">xojo</div><div class="ext">.xojo_code .xojo_menu .xojo_report .xojo_script .xojo_toolbar .xojo_window</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Xtend</h4><div class="attb"><div class="alias">xtend</div><div class="ext">.xtend</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>YAML</h4><div class="attb"><div class="alias">yaml, yml</div><div class="ext">.yml .reek .rviz .sublime-syntax .syntax .yaml .yaml-tmlanguage .yml.mysql</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>YANG</h4><div class="attb"><div class="alias">yang</div><div class="ext">.yang</div></div></div>
-<div class="lang md" style="background-color: #4B6C4B"><h4>Yacc</h4><div class="attb"><div class="alias">yacc</div><div class="ext">.y .yacc .yy</div></div></div>
+<div class="lang md" style="background-color: #4b6c4b"><h4>Yacc</h4><div class="attb"><div class="alias">yacc</div><div class="ext">.y .yacc .yy</div></div></div>
 <div class="lang md" style="background-color: #118f9e"><h4>Zephir</h4><div class="attb"><div class="alias">zephir</div><div class="ext">.zep</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>Zimpl</h4><div class="attb"><div class="alias">zimpl</div><div class="ext">.zimpl .zmpl .zpl</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>desktop</h4><div class="attb"><div class="alias">desktop</div><div class="ext">.desktop .desktop.in</div></div></div>
@@ -514,10 +520,10 @@
 <div class="lang md" style="background-color: #202020"><h4>edn</h4><div class="attb"><div class="alias">edn</div><div class="ext">.edn</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>fish</h4><div class="attb"><div class="alias">fish</div><div class="ext">.fish</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>mupad</h4><div class="attb"><div class="alias">mupad</div><div class="ext">.mu</div></div></div>
-<div class="lang md" style="background-color: #94B0C7"><h4>nesC</h4><div class="attb"><div class="alias">nesc</div><div class="ext">.nc</div></div></div>
-<div class="lang md" style="background-color: #b0b77e"><h4>ooc</h4><div class="attb"><div class="alias">ooc</div><div class="ext">.ooc</div></div></div>
+<div class="lang inverted" style="background-color: #94b0c7"><h4>nesC</h4><div class="attb"><div class="alias">nesc</div><div class="ext">.nc</div></div></div>
+<div class="lang inverted" style="background-color: #b0b77e"><h4>ooc</h4><div class="attb"><div class="alias">ooc</div><div class="ext">.ooc</div></div></div>
 <div class="lang md" style="background-color: #202020"><h4>reStructuredText</h4><div class="attb"><div class="alias">restructuredtext, rst</div><div class="ext">.rst .rest .rest.txt .rst.txt</div></div></div>
-<div class="lang md" style="background-color: #7582D1"><h4>wisp</h4><div class="attb"><div class="alias">wisp</div><div class="ext">.wisp</div></div></div>
+<div class="lang inverted" style="background-color: #7582d1"><h4>wisp</h4><div class="attb"><div class="alias">wisp</div><div class="ext">.wisp</div></div></div>
 <div class="lang md" style="background-color: #403a40"><h4>xBase</h4><div class="attb"><div class="alias">xbase, advpl, clipper, foxpro</div><div class="ext">.prg .ch .prw</div></div></div>
 </div>
 </body>

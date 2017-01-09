@@ -1,6 +1,7 @@
 var _yamljs = require('yamljs');
 var _fs = require('fs');
 var _fetch = require('node-fetch');
+var _color = require('onecolor');
 
 // buffer html output
 var htmlOutputBuffer = '';
@@ -45,9 +46,6 @@ function addLanguage(name, attb){
     // get language identifier
     var lang = name.replace(/[^\w]/g, '').toLowerCase();
 
-    // set default color
-    var borderColor = attb.color || '#202020';
-
     // get aliases
     var aliases = (attb.aliases || []);
     aliases.unshift(lang);
@@ -55,17 +53,25 @@ function addLanguage(name, attb){
     // get file extensions
     var ext = (attb.extensions || []);
 
-    // more than 10 elements ?
+    // element block size ?
     var addClass = 'md';
-    
     if ((aliases.length + ext.length) > 10){
         addClass = 'lg'
     }
     if ((aliases.length + ext.length) > 25){
         addClass = 'xl'
     }
-    
-    htmlOutputBuffer += '<div class="lang ' + addClass + '" style="background-color: ' + borderColor + '">';
+
+    // set default color
+    var elColor = _color(attb.color || '#202020');
+
+    // light bg ? use inverted font color
+    if (elColor.lightness() > 0.5){
+        addClass = 'inverted';
+    }
+
+    // generate html
+    htmlOutputBuffer += '<div class="lang ' + addClass + '" style="background-color: ' + elColor.hex() + '">';
     htmlOutputBuffer += '<h4>' + name + '</h4><div class="attb">';
     htmlOutputBuffer += '<div class="alias">' +aliases.join(', ') +'</div>';
     htmlOutputBuffer += '<div class="ext">' + ext.join(' ') +'</div>';
