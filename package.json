@@ -1,0 +1,9 @@
+{
+  "name": "GitHubSyntaxHighlighting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "yamljs": "^0.2.8"
+  }
+}
