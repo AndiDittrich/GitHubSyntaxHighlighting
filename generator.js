@@ -72,6 +72,5 @@ function getTemplate(name){
     // some vars
     html = html.replace('${build.date}', new Date());
 
-
     return html;
 }
