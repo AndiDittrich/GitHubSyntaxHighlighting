@@ -66,7 +66,7 @@ function addLanguage(name, attb){
     var elColor = _color(attb.color || '#202020');
 
     // light bg ? use inverted font color
-    if (elColor.lightness() > 0.5){
+    if (elColor.lightness() > 0.52){
         addClass = 'inverted';
     }
 
