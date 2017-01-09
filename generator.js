@@ -56,8 +56,15 @@ function addLanguage(name, attb){
     var ext = (attb.extensions || []);
 
     // more than 10 elements ?
-    var addClass = ((aliases.length + ext.length) > 10  ? 'xl' : 'md');
-
+    var addClass = 'md';
+    
+    if ((aliases.length + ext.length) > 10){
+        addClass = 'lg'
+    }
+    if ((aliases.length + ext.length) > 25){
+        addClass = 'xl'
+    }
+    
     htmlOutputBuffer += '<div class="lang ' + addClass + '" style="background-color: ' + borderColor + '">';
     htmlOutputBuffer += '<h4>' + name + '</h4><div class="attb">';
     htmlOutputBuffer += '<div class="alias">' +aliases.join(', ') +'</div>';
